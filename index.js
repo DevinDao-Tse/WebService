@@ -12,7 +12,7 @@ app.use(cors())
 let settingHeader = obj => obj.setHeader('Content-Type', 'application/json')
 let setToken = () => (100000 + Math.floor(Math.random() * 900000)).toString() 
 let token = undefined
-
+//adding a comment
 let users = new Map()
 // users.set('bob', 'pwd123')
 let usersSession = new Map() //key -> token, name
